@@ -1,26 +1,47 @@
 DIABETES_FEATURES = [
-    "Pregnancies",
-    "Glucose",
-    "BloodPressure",
-    "SkinThickness",
-    "Insulin",
-    "BMI",
-    "DiabetesPedigreeFunction",
-    "Age",
+    'Pregnancies',
+    'Glucose',
+    'BloodPressure',
+    'SkinThickness',
+    'Insulin',
+    'BMI',
+    'DiabetesPedigreeFunction',
+    'Age',
 ]
 
 DIABETES_TARGET = "Outcome"
 
 
 HEART_FEATURES = [
-    # Fill after inspecting actual heart.csv
+    'age',
+    'sex',
+    'cp',
+    'trestbps',
+    'chol',
+    'fbs',
+    'restecg',
+    'thalach',
+    'exang',
+    'oldpeak',
+    'slope',
+    'ca',
+    'thal', 
 ]
 
-HEART_TARGET = ""
+HEART_TARGET = "Target"
 
 
 LIVER_FEATURES = [
-    # Fill after inspecting actual liver.csv
+    'Age',
+    'Gender',
+    'Total_Bilirubin',
+    'Direct_Bilirubin',
+    'Alkaline_Phosphotase',
+    'Alamine_Aminotransferase',
+    'Aspartate_Aminotransferase',
+    'Total_Protiens',
+    'Albumin',
+    'Albumin_and_Globulin_Ratio',
 ]
 
-LIVER_TARGET = ""
+LIVER_TARGET = "Dataset"
