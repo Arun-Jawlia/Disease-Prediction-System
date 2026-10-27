@@ -402,3 +402,18 @@ def fit_preprocessor(
         X_train_processed,
         X_test_processed,
     )
+
+def get_preprocessor(dataset_name: str):
+
+    if dataset_name == "diabetes":
+        return build_diabetes_preprocessor()
+
+    if dataset_name == "heart":
+        return build_heart_preprocessor()
+
+    if dataset_name == "liver":
+        return build_liver_preprocessor()
+
+    raise ValueError(
+        f"Unknown dataset: {dataset_name}"
+    )
