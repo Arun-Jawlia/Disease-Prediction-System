@@ -1,0 +1,293 @@
+[
+    {
+        "dataset": "diabetes",
+        "model": "logistic_regression",
+        "best_cv_f1": 0.6582745260827452,
+        "best_params": {
+            "classifier__C": 1,
+            "classifier__solver": "liblinear"
+        },
+        "test_metrics": {
+            "accuracy": 0.6948051948051948,
+            "precision": 0.574468085106383,
+            "recall": 0.5,
+            "f1": 0.5346534653465347,
+            "roc_auc": 0.8127777777777777
+        },
+        "model_path": "C:\\Users\\arunk\\OneDrive\\Desktop\\Learning\\Machine-Learning-Projects\\Disease-Prediction-System\\ml\\artifacts\\tuning\\models\\diabetes\\logistic_regression.joblib",
+        "cv_results_path": "C:\\Users\\arunk\\OneDrive\\Desktop\\Learning\\Machine-Learning-Projects\\Disease-Prediction-System\\ml\\artifacts\\tuning\\cv_results\\diabetes_logistic_regression.csv"
+    },
+    {
+        "dataset": "diabetes",
+        "model": "decision_tree",
+        "best_cv_f1": 0.5971430196813897,
+        "best_params": {
+            "classifier__criterion": "gini",
+            "classifier__max_depth": 5,
+            "classifier__min_samples_leaf": 5,
+            "classifier__min_samples_split": 20
+        },
+        "test_metrics": {
+            "accuracy": 0.7727272727272727,
+            "precision": 0.6507936507936508,
+            "recall": 0.7592592592592593,
+            "f1": 0.7008547008547008,
+            "roc_auc": 0.7932407407407407
+        },
+        "model_path": "C:\\Users\\arunk\\OneDrive\\Desktop\\Learning\\Machine-Learning-Projects\\Disease-Prediction-System\\ml\\artifacts\\tuning\\models\\diabetes\\decision_tree.joblib",
+        "cv_results_path": "C:\\Users\\arunk\\OneDrive\\Desktop\\Learning\\Machine-Learning-Projects\\Disease-Prediction-System\\ml\\artifacts\\tuning\\cv_results\\diabetes_decision_tree.csv"
+    },
+    {
+        "dataset": "diabetes",
+        "model": "random_forest",
+        "best_cv_f1": 0.6657780609483396,
+        "best_params": {
+            "classifier__max_depth": 15,
+            "classifier__max_features": "log2",
+            "classifier__min_samples_leaf": 2,
+            "classifier__min_samples_split": 2,
+            "classifier__n_estimators": 100
+        },
+        "test_metrics": {
+            "accuracy": 0.7402597402597403,
+            "precision": 0.6521739130434783,
+            "recall": 0.5555555555555556,
+            "f1": 0.6,
+            "roc_auc": 0.8107407407407408
+        },
+        "model_path": "C:\\Users\\arunk\\OneDrive\\Desktop\\Learning\\Machine-Learning-Projects\\Disease-Prediction-System\\ml\\artifacts\\tuning\\models\\diabetes\\random_forest.joblib",
+        "cv_results_path": "C:\\Users\\arunk\\OneDrive\\Desktop\\Learning\\Machine-Learning-Projects\\Disease-Prediction-System\\ml\\artifacts\\tuning\\cv_results\\diabetes_random_forest.csv"
+    },
+    {
+        "dataset": "diabetes",
+        "model": "svm",
+        "best_cv_f1": 0.65237323081823,
+        "best_params": {
+            "classifier__C": 1,
+            "classifier__gamma": "scale",
+            "classifier__kernel": "linear"
+        },
+        "test_metrics": {
+            "accuracy": 0.7012987012987013,
+            "precision": 0.5909090909090909,
+            "recall": 0.48148148148148145,
+            "f1": 0.5306122448979592,
+            "roc_auc": 0.8131481481481482
+        },
+        "model_path": "C:\\Users\\arunk\\OneDrive\\Desktop\\Learning\\Machine-Learning-Projects\\Disease-Prediction-System\\ml\\artifacts\\tuning\\models\\diabetes\\svm.joblib",
+        "cv_results_path": "C:\\Users\\arunk\\OneDrive\\Desktop\\Learning\\Machine-Learning-Projects\\Disease-Prediction-System\\ml\\artifacts\\tuning\\cv_results\\diabetes_svm.csv"
+    },
+    {
+        "dataset": "diabetes",
+        "model": "knn",
+        "best_cv_f1": 0.6365515529117305,
+        "best_params": {
+            "classifier__metric": "euclidean",
+            "classifier__n_neighbors": 9,
+            "classifier__weights": "distance"
+        },
+        "test_metrics": {
+            "accuracy": 0.7402597402597403,
+            "precision": 0.6346153846153846,
+            "recall": 0.6111111111111112,
+            "f1": 0.6226415094339622,
+            "roc_auc": 0.7968518518518519
+        },
+        "model_path": "C:\\Users\\arunk\\OneDrive\\Desktop\\Learning\\Machine-Learning-Projects\\Disease-Prediction-System\\ml\\artifacts\\tuning\\models\\diabetes\\knn.joblib",
+        "cv_results_path": "C:\\Users\\arunk\\OneDrive\\Desktop\\Learning\\Machine-Learning-Projects\\Disease-Prediction-System\\ml\\artifacts\\tuning\\cv_results\\diabetes_knn.csv"
+    },
+    {
+        "dataset": "heart",
+        "model": "logistic_regression",
+        "best_cv_f1": 0.8362956154058278,
+        "best_params": {
+            "classifier__C": 10,
+            "classifier__solver": "liblinear"
+        },
+        "test_metrics": {
+            "accuracy": 0.8688524590163934,
+            "precision": 0.8333333333333334,
+            "recall": 0.8928571428571429,
+            "f1": 0.8620689655172413,
+            "roc_auc": 0.9621212121212122
+        },
+        "model_path": "C:\\Users\\arunk\\OneDrive\\Desktop\\Learning\\Machine-Learning-Projects\\Disease-Prediction-System\\ml\\artifacts\\tuning\\models\\heart\\logistic_regression.joblib",
+        "cv_results_path": "C:\\Users\\arunk\\OneDrive\\Desktop\\Learning\\Machine-Learning-Projects\\Disease-Prediction-System\\ml\\artifacts\\tuning\\cv_results\\heart_logistic_regression.csv"
+    },
+    {
+        "dataset": "heart",
+        "model": "decision_tree",
+        "best_cv_f1": 0.7697390183051607,
+        "best_params": {
+            "classifier__criterion": "gini",
+            "classifier__max_depth": 3,
+            "classifier__min_samples_leaf": 10,
+            "classifier__min_samples_split": 2
+        },
+        "test_metrics": {
+            "accuracy": 0.8688524590163934,
+            "precision": 0.8571428571428571,
+            "recall": 0.8571428571428571,
+            "f1": 0.8571428571428571,
+            "roc_auc": 0.8712121212121212
+        },
+        "model_path": "C:\\Users\\arunk\\OneDrive\\Desktop\\Learning\\Machine-Learning-Projects\\Disease-Prediction-System\\ml\\artifacts\\tuning\\models\\heart\\decision_tree.joblib",
+        "cv_results_path": "C:\\Users\\arunk\\OneDrive\\Desktop\\Learning\\Machine-Learning-Projects\\Disease-Prediction-System\\ml\\artifacts\\tuning\\cv_results\\heart_decision_tree.csv"
+    },
+    {
+        "dataset": "heart",
+        "model": "random_forest",
+        "best_cv_f1": 0.8035134069672791,
+        "best_params": {
+            "classifier__max_depth": null,
+            "classifier__max_features": "log2",
+            "classifier__min_samples_leaf": 1,
+            "classifier__min_samples_split": 2,
+            "classifier__n_estimators": 300
+        },
+        "test_metrics": {
+            "accuracy": 0.8688524590163934,
+            "precision": 0.8125,
+            "recall": 0.9285714285714286,
+            "f1": 0.8666666666666667,
+            "roc_auc": 0.9485930735930735
+        },
+        "model_path": "C:\\Users\\arunk\\OneDrive\\Desktop\\Learning\\Machine-Learning-Projects\\Disease-Prediction-System\\ml\\artifacts\\tuning\\models\\heart\\random_forest.joblib",
+        "cv_results_path": "C:\\Users\\arunk\\OneDrive\\Desktop\\Learning\\Machine-Learning-Projects\\Disease-Prediction-System\\ml\\artifacts\\tuning\\cv_results\\heart_random_forest.csv"
+    },
+    {
+        "dataset": "heart",
+        "model": "svm",
+        "best_cv_f1": 0.8025252525252524,
+        "best_params": {
+            "classifier__C": 1,
+            "classifier__gamma": "scale",
+            "classifier__kernel": "linear"
+        },
+        "test_metrics": {
+            "accuracy": 0.8524590163934426,
+            "precision": 0.7878787878787878,
+            "recall": 0.9285714285714286,
+            "f1": 0.8524590163934426,
+            "roc_auc": 0.9610389610389611
+        },
+        "model_path": "C:\\Users\\arunk\\OneDrive\\Desktop\\Learning\\Machine-Learning-Projects\\Disease-Prediction-System\\ml\\artifacts\\tuning\\models\\heart\\svm.joblib",
+        "cv_results_path": "C:\\Users\\arunk\\OneDrive\\Desktop\\Learning\\Machine-Learning-Projects\\Disease-Prediction-System\\ml\\artifacts\\tuning\\cv_results\\heart_svm.csv"
+    },
+    {
+        "dataset": "heart",
+        "model": "knn",
+        "best_cv_f1": 0.8305851656822979,
+        "best_params": {
+            "classifier__metric": "manhattan",
+            "classifier__n_neighbors": 7,
+            "classifier__weights": "distance"
+        },
+        "test_metrics": {
+            "accuracy": 0.8852459016393442,
+            "precision": 0.8620689655172413,
+            "recall": 0.8928571428571429,
+            "f1": 0.8771929824561403,
+            "roc_auc": 0.9458874458874459
+        },
+        "model_path": "C:\\Users\\arunk\\OneDrive\\Desktop\\Learning\\Machine-Learning-Projects\\Disease-Prediction-System\\ml\\artifacts\\tuning\\models\\heart\\knn.joblib",
+        "cv_results_path": "C:\\Users\\arunk\\OneDrive\\Desktop\\Learning\\Machine-Learning-Projects\\Disease-Prediction-System\\ml\\artifacts\\tuning\\cv_results\\heart_knn.csv"
+    },
+    {
+        "dataset": "liver",
+        "model": "logistic_regression",
+        "best_cv_f1": 0.832271762208068,
+        "best_params": {
+            "classifier__C": 0.01,
+            "classifier__solver": "lbfgs"
+        },
+        "test_metrics": {
+            "accuracy": 0.7105263157894737,
+            "precision": 0.7105263157894737,
+            "recall": 1.0,
+            "f1": 0.8307692307692308,
+            "roc_auc": 0.804339693228582
+        },
+        "model_path": "C:\\Users\\arunk\\OneDrive\\Desktop\\Learning\\Machine-Learning-Projects\\Disease-Prediction-System\\ml\\artifacts\\tuning\\models\\liver\\logistic_regression.joblib",
+        "cv_results_path": "C:\\Users\\arunk\\OneDrive\\Desktop\\Learning\\Machine-Learning-Projects\\Disease-Prediction-System\\ml\\artifacts\\tuning\\cv_results\\liver_logistic_regression.csv"
+    },
+    {
+        "dataset": "liver",
+        "model": "decision_tree",
+        "best_cv_f1": 0.8032470921783899,
+        "best_params": {
+            "classifier__criterion": "entropy",
+            "classifier__max_depth": 3,
+            "classifier__min_samples_leaf": 10,
+            "classifier__min_samples_split": 2
+        },
+        "test_metrics": {
+            "accuracy": 0.7105263157894737,
+            "precision": 0.7142857142857143,
+            "recall": 0.9876543209876543,
+            "f1": 0.8290155440414507,
+            "roc_auc": 0.7667414889637112
+        },
+        "model_path": "C:\\Users\\arunk\\OneDrive\\Desktop\\Learning\\Machine-Learning-Projects\\Disease-Prediction-System\\ml\\artifacts\\tuning\\models\\liver\\decision_tree.joblib",
+        "cv_results_path": "C:\\Users\\arunk\\OneDrive\\Desktop\\Learning\\Machine-Learning-Projects\\Disease-Prediction-System\\ml\\artifacts\\tuning\\cv_results\\liver_decision_tree.csv"
+    },
+    {
+        "dataset": "liver",
+        "model": "random_forest",
+        "best_cv_f1": 0.8271332165989096,
+        "best_params": {
+            "classifier__max_depth": 5,
+            "classifier__max_features": "sqrt",
+            "classifier__min_samples_leaf": 1,
+            "classifier__min_samples_split": 5,
+            "classifier__n_estimators": 100
+        },
+        "test_metrics": {
+            "accuracy": 0.7192982456140351,
+            "precision": 0.7289719626168224,
+            "recall": 0.9629629629629629,
+            "f1": 0.8297872340425532,
+            "roc_auc": 0.7867564534231201
+        },
+        "model_path": "C:\\Users\\arunk\\OneDrive\\Desktop\\Learning\\Machine-Learning-Projects\\Disease-Prediction-System\\ml\\artifacts\\tuning\\models\\liver\\random_forest.joblib",
+        "cv_results_path": "C:\\Users\\arunk\\OneDrive\\Desktop\\Learning\\Machine-Learning-Projects\\Disease-Prediction-System\\ml\\artifacts\\tuning\\cv_results\\liver_random_forest.csv"
+    },
+    {
+        "dataset": "liver",
+        "model": "svm",
+        "best_cv_f1": 0.83443626437257,
+        "best_params": {
+            "classifier__C": 1,
+            "classifier__gamma": "scale",
+            "classifier__kernel": "rbf"
+        },
+        "test_metrics": {
+            "accuracy": 0.7105263157894737,
+            "precision": 0.7105263157894737,
+            "recall": 1.0,
+            "f1": 0.8307692307692308,
+            "roc_auc": 0.6771417882528994
+        },
+        "model_path": "C:\\Users\\arunk\\OneDrive\\Desktop\\Learning\\Machine-Learning-Projects\\Disease-Prediction-System\\ml\\artifacts\\tuning\\models\\liver\\svm.joblib",
+        "cv_results_path": "C:\\Users\\arunk\\OneDrive\\Desktop\\Learning\\Machine-Learning-Projects\\Disease-Prediction-System\\ml\\artifacts\\tuning\\cv_results\\liver_svm.csv"
+    },
+    {
+        "dataset": "liver",
+        "model": "knn",
+        "best_cv_f1": 0.8115265936498813,
+        "best_params": {
+            "classifier__metric": "manhattan",
+            "classifier__n_neighbors": 15,
+            "classifier__weights": "distance"
+        },
+        "test_metrics": {
+            "accuracy": 0.7192982456140351,
+            "precision": 0.7378640776699029,
+            "recall": 0.9382716049382716,
+            "f1": 0.8260869565217391,
+            "roc_auc": 0.732136176580621
+        },
+        "model_path": "C:\\Users\\arunk\\OneDrive\\Desktop\\Learning\\Machine-Learning-Projects\\Disease-Prediction-System\\ml\\artifacts\\tuning\\models\\liver\\knn.joblib",
+        "cv_results_path": "C:\\Users\\arunk\\OneDrive\\Desktop\\Learning\\Machine-Learning-Projects\\Disease-Prediction-System\\ml\\artifacts\\tuning\\cv_results\\liver_knn.csv"
+    }
+]
