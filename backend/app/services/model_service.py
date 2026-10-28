@@ -4,7 +4,6 @@ from pathlib import Path
 from app.core.config import settings
 from app.ml.loader import ModelLoader
 
-
 class ModelService:
 
     SUPPORTED_DISEASES = {

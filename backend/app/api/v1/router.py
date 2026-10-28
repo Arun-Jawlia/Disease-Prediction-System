@@ -8,6 +8,8 @@ from app.api.v1.diseases import (
     router as diseases_router,
 )
 
+from app.api.v1.predictions import router as predictions_router
+
 
 api_router = APIRouter(
     prefix="/api/v1"
@@ -20,4 +22,8 @@ api_router.include_router(
 
 api_router.include_router(
     diseases_router
+)
+
+api_router.include_router(
+    predictions_router
 )

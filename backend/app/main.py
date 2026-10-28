@@ -1,3 +1,4 @@
+from contextlib import asynccontextmanager
 import logging
 
 from fastapi import FastAPI
@@ -15,12 +16,25 @@ from app.core.logging import (
     configure_logging,
 )
 
+from app.services.container import model_service
+
 
 # ------------------------------------------------------------
 # Logging
 # ------------------------------------------------------------
 
 configure_logging()
+
+
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+
+    model_service.load_all_models()
+
+    print("All ML models loaded successfully.")
+
+    yield
 
 logger = logging.getLogger(
     __name__
@@ -45,6 +59,8 @@ app = FastAPI(
     docs_url="/docs",
 
     redoc_url="/redoc",
+
+    lifespan = lifespan
 )
 
 

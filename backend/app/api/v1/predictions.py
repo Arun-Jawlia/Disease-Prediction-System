@@ -12,22 +12,14 @@ from app.schemas.liver import (
 from app.schemas.response import (
     PredictionResponse,
 )
-from app.services.model_service import ModelService
-from app.services.prediction_service import (
-    PredictionService,
-)
 
+from app.services.container import prediction_service
 
 router = APIRouter(
     prefix="/predictions",
     tags=["Predictions"],
 )
 
-
-model_service = ModelService()
-prediction_service = PredictionService(
-    model_service
-)
 
 
 @router.post(
