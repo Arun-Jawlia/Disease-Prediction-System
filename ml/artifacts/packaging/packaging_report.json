@@ -1,0 +1,29 @@
+[
+    {
+        "disease": "diabetes",
+        "model": "decision_tree",
+        "model_path": "C:\\Users\\arunk\\OneDrive\\Desktop\\Learning\\Machine-Learning-Projects\\Disease-Prediction-System\\models\\diabetes\\model.joblib",
+        "metadata_path": "C:\\Users\\arunk\\OneDrive\\Desktop\\Learning\\Machine-Learning-Projects\\Disease-Prediction-System\\models\\diabetes\\metadata.json",
+        "checksum_path": "C:\\Users\\arunk\\OneDrive\\Desktop\\Learning\\Machine-Learning-Projects\\Disease-Prediction-System\\models\\diabetes\\checksum.sha256",
+        "sha256": "bf370bb8f10e6405effd623f5e40774c7642aede0d2abe6c3ac35f0db8a2e25e",
+        "status": "success"
+    },
+    {
+        "disease": "heart",
+        "model": "random_forest",
+        "model_path": "C:\\Users\\arunk\\OneDrive\\Desktop\\Learning\\Machine-Learning-Projects\\Disease-Prediction-System\\models\\heart\\model.joblib",
+        "metadata_path": "C:\\Users\\arunk\\OneDrive\\Desktop\\Learning\\Machine-Learning-Projects\\Disease-Prediction-System\\models\\heart\\metadata.json",
+        "checksum_path": "C:\\Users\\arunk\\OneDrive\\Desktop\\Learning\\Machine-Learning-Projects\\Disease-Prediction-System\\models\\heart\\checksum.sha256",
+        "sha256": "207e38e6114c045bf060ff41a75ae1f1071973a1ce83ff3cbf089d0409dfd859",
+        "status": "success"
+    },
+    {
+        "disease": "liver",
+        "model": "knn",
+        "model_path": "C:\\Users\\arunk\\OneDrive\\Desktop\\Learning\\Machine-Learning-Projects\\Disease-Prediction-System\\models\\liver\\model.joblib",
+        "metadata_path": "C:\\Users\\arunk\\OneDrive\\Desktop\\Learning\\Machine-Learning-Projects\\Disease-Prediction-System\\models\\liver\\metadata.json",
+        "checksum_path": "C:\\Users\\arunk\\OneDrive\\Desktop\\Learning\\Machine-Learning-Projects\\Disease-Prediction-System\\models\\liver\\checksum.sha256",
+        "sha256": "26b4a17f4ce7eb922be136907638d84bdaa9b2cbd2aed516028cee1cad140113",
+        "status": "success"
+    }
+]
