@@ -1,0 +1,27 @@
+{
+    "project": "Disease Prediction System",
+    "disease": "liver",
+    "model": "knn",
+    "artifact": "model.joblib",
+    "framework": "scikit-learn",
+    "serialization": "joblib",
+    "model_type": "complete preprocessing and classification pipeline",
+    "selection_stage": "Phase 7",
+    "evaluation": {
+        "accuracy": 0.9145299145299145,
+        "precision": 0.8924731182795699,
+        "recall": 1.0,
+        "f1": 0.9431818181818182,
+        "roc_auc": 0.9773210489014883
+    },
+    "confusion_matrix": {
+        "true_negative": 24,
+        "false_positive": 10,
+        "false_negative": 0,
+        "true_positive": 83
+    },
+    "file": {
+        "name": "model.joblib",
+        "sha256": "26b4a17f4ce7eb922be136907638d84bdaa9b2cbd2aed516028cee1cad140113"
+    }
+}
